@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Respe\\Desktop\\RustAutoDetection\\RustAutoDetection\\RustAutoDetection.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Respe\\Desktop\\RustAutoDetection\\RustAutoDetection\\RustAutoDetection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Respe\\Desktop\\RustAutoDetection\\RustAutoDetection\\RustAutoDetection.csproj",
+        "projectName": "RustAutoDetection",
+        "projectPath": "C:\\Users\\Respe\\Desktop\\RustAutoDetection\\RustAutoDetection\\RustAutoDetection.csproj",
+        "packagesPath": "C:\\Users\\Respe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Respe\\Desktop\\RustAutoDetection\\RustAutoDetection\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\Respe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Emgu.CV.Bitmap": {
+              "target": "Package",
+              "version": "[4.5.5.4823, )"
+            },
+            "Emgu.CV.runtime.windows": {
+              "target": "Package",
+              "version": "[4.5.5.4823, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
